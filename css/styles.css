@@ -26,7 +26,16 @@
   font-display: swap;
 }
 
-
+:root{
+  --bg-milky-dark: #C99B67;
+  --bg-milky-light: #F3D7B7;
+  --bg-green: #0A775F;
+  --text-black: #000;
+  --site-font-family: "Roboto", "Arial", sans-serif;
+   --site-font-weight: 400;
+   --site-line-height: 24px;
+   --site-font-size: 16px;
+}
 
 html{
   height: 100%;
@@ -60,9 +69,9 @@ img{
 
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1360px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
