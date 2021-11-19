@@ -79,8 +79,13 @@ img{
 
 .site-header {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 249px;
   background-color: var(--bg-milky-light);
+  background-image:  url(../img/alfred.png),
+  url(../img/cup-coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: auto, contain;
+  background-position: left calc(50% + 50px) top 25px, left calc(50% + 420px) top 104px;
 }
 
 .site-header-container{
@@ -95,9 +100,6 @@ img{
   object-fit: contain;
 }
 
-.site-nav {
-
-}
 .site-nav-lists {
   padding-left: 0;
   margin-top: 0;
@@ -120,4 +122,51 @@ img{
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+.site-hero {
+  padding-top: 116px;
+  padding-bottom: 249px;
+  background-color: var(--bg-milky-light);
+
+}
+.hero-content {
+  width: 464px;
+  margin-left: 100px;
+  margin-top: 156px;
+}
+.site-hero-header {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.site-hero-text {
+margin-bottom: 34px;
+}
+.button {
+padding: 16px 24px;
+background-color: var(--bg-green);
+text-decoration: none;
+border-radius: 100px;
+  font-weight: 500;
+line-height: 19px;
+text-align: center;
+letter-spacing: 1px;
+font-variant: small-caps;
+color: #FFFFFF;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+.site-hero-header{
+  background-image:  url(../img/alfred@2x.png),
+  url(../img/cup-coffee@2x.jpg);
+}
 }
