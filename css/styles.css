@@ -30,11 +30,8 @@
   --bg-milky-dark: #C99B67;
   --bg-milky-light: #F3D7B7;
   --bg-green: #0A775F;
-  --text-black: #000;
+  --text-color: #000;
   --site-font-family: "Roboto", "Arial", sans-serif;
-   --site-font-weight: 400;
-   --site-line-height: 24px;
-   --site-font-size: 16px;
 }
 
 html{
@@ -55,11 +52,11 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial",sans-serif;
+  font-family: var(--site-font-family);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   background-color: #fff;
-  color: black;
+  color: var(--text-color);
 }
 
 img{
@@ -69,7 +66,7 @@ img{
 
 .container{
   width: 100%;
-  max-width: 1360px;
+  max-width: 1340px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: auto;
@@ -78,4 +75,49 @@ img{
 
 .main-content{
   flex-grow: 1;
+}
+
+.site-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--bg-milky-light);
+}
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 235px;
+  height: 24px;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.site-nav {
+
+}
+.site-nav-lists {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.site-nav-item:not(:last-child){
+  margin-right: 40px;
+}
+
+.site-nav-link {
+  font-weight: 700;
+  line-height:14px;
+  font-size: 12px;
+  --text-color: #333;
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
