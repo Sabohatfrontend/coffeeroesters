@@ -224,6 +224,62 @@ img{
   color: #333333;
 }
 
+.site-promo {
+}
+.site-promo-top {
+  padding-top: 50px;
+  padding-bottom: 500px;
+  background-color: var(--bg-milky-dark);
+  --text-color: #fff;
+  color: var(--text-color);
+}
+.site-promo-top-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+}
+.site-promo-top-text {
+  width: 581px;
+  line-height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+.site-promo-bottom {
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+.site-promo-bottom-content {
+  color: #333333;
+  width: 433px;
+}
+
+.site-promo-bottom-content:not(:last-child){
+  margin-right: 20px;
+}
+
+.promo-img {
+  width: 433px;
+  height: 500px;
+  margin-top: -420px;
+}
+
+
+.promo-bottom-header {
+  font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+}
+.promo-bottom-text {
+  width: 377px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
