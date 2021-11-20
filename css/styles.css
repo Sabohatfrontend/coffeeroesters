@@ -297,6 +297,10 @@ img{
   padding-left: 30px;
   padding-right: 30px;
   background-color: var(--bg-green);
+  background-image:  url(../img/but-first-coffee.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left calc(50% + 500px) top 5%;
 }
 
 .instruction-header {
