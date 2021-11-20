@@ -374,7 +374,35 @@ img{
   line-height: 28px;
 }
 
+.site-footer{
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background-color: var(--bg-milky-light);
+}
 
+.social-lists {
+  padding-left: 0;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 331px;
+  list-style: none;
+}
+
+.social-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.social-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
