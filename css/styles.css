@@ -102,11 +102,13 @@ img{
 }
 
 .site-logo-link{
+  display: block;
   text-decoration: none;
   margin-right: auto;
 }
 
 .logo-img {
+  display: block;
   width: 235px;
   height: 24px;
   object-fit: contain;
@@ -405,11 +407,12 @@ img{
 }
 
 .social-link {
-  display: inline-block;
+  display: block;
   text-decoration: none;
 }
 
 .social-img {
+  display: block;
   width: 30px;
   height: 30px;
   object-fit: contain;
