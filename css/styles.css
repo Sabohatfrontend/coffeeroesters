@@ -107,6 +107,14 @@ img{
   margin-right: auto;
 }
 
+.site-logo-link:hover{
+  opacity: 0.8;
+}
+
+.site-logo-link:active{
+  opacity: 0.6;
+}
+
 .logo-img {
   display: block;
   width: 235px;
@@ -136,6 +144,14 @@ img{
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+.site-nav-link:hover{
+  color: var(--bg-green);
+}
+
+.site-nav-link:active{
+  opacity: 0.6;
 }
 
 .site-hero {
@@ -171,6 +187,14 @@ img{
   letter-spacing: 1px;
   font-variant: small-caps;
   color: #FFFFFF;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+
+.button:active{
+  opacity: 0.6;
 }
 
 .button-milky {
@@ -409,14 +433,21 @@ img{
 .social-link {
   display: block;
   text-decoration: none;
+  color: #333;
 }
 
-.social-img {
-  display: block;
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
+.social-link:hover{
+  color: var(--bg-green);
 }
+
+.social-link:active{
+  opacity: 0.8;
+}
+
+.social-link svg{
+  display: block;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
