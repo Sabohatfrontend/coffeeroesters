@@ -160,11 +160,13 @@ img{
   background-color: var(--bg-milky-light);
 
 }
+
 .hero-content {
   width: 464px;
   margin-left: 100px;
   margin-top: 156px;
 }
+
 .site-hero-header {
   margin-top: 0;
   margin-bottom: 24px;
@@ -172,9 +174,11 @@ img{
   font-size: 64px;
   line-height: 75px;
 }
+
 .site-hero-text {
   margin-bottom: 34px;
 }
+
 .button {
   display: inline-block;
   padding: 16px 24px;
@@ -200,6 +204,7 @@ img{
 .button-milky {
   background-color: var(--bg-milky-dark);
 }
+
 .collection {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -208,6 +213,7 @@ img{
   background-repeat: no-repeat;
   background-size: auto; */
 }
+
 .collection-container {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -265,8 +271,6 @@ img{
   color: #333333;
 }
 
-.site-promo {
-}
 .site-promo-top {
   padding-top: 50px;
   padding-bottom: 500px;
@@ -274,6 +278,7 @@ img{
   --text-color: #fff;
   color: var(--text-color);
 }
+
 .site-promo-top-header {
   margin-top: 0;
   margin-bottom: 10px;
@@ -282,6 +287,7 @@ img{
   line-height: 59px;
   text-align: center;
 }
+
 .site-promo-top-text {
   width: 581px;
   line-height: 28px;
@@ -289,11 +295,13 @@ img{
   margin-right: auto;
   opacity: 0.8;
 }
+
 .site-promo-bottom {
   margin-right: 30px;
   margin-left: 30px;
   display: flex;
 }
+
 .site-promo-bottom-content {
   color: #333333;
   width: 433px;
@@ -308,7 +316,6 @@ img{
   height: 500px;
   margin-top: -420px;
 }
-
 
 .promo-bottom-header {
   font-weight: 500;
@@ -402,6 +409,7 @@ img{
   line-height: 47px;
 
 }
+
 .intruction-content-text {
   width: 385px;
   margin-top: 0;
