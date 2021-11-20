@@ -94,10 +94,14 @@ img{
   align-items: center;
 }
 
+.site-logo-link{
+  text-decoration: none;
+  margin-right: auto;
+}
+
 .logo-img {
   width: 235px;
   height: 24px;
-  margin-right: auto;
   object-fit: contain;
 }
 
