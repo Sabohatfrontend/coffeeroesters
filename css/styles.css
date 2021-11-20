@@ -414,8 +414,12 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-  .site-hero-header{
+  .site-header{
     background-image:  url(../img/alfred@2x.png),
     url(../img/cup-coffee@2x.jpg);
+  }
+
+  .instruction{
+    background-image:  url(../img/but-first-coffee@2x.png);
   }
 }
